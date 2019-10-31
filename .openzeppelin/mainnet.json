@@ -1,0 +1,98 @@
+{
+  "contracts": {
+    "VEGAToken": {
+      "address": "0x856F008bc1C1916268794326a84DC5F6b5B8F9C0",
+      "constructorCode": "60806040523480156200001157600080fd5b506040518060400160405280600d81526020017f56656761205371756164726f6e000000000000000000000000000000000000008152506040518060400160405280600481526020017f5645474100000000000000000000000000000000000000000000000000000000815250601282600390805190602001906200009892919062000346565b508160049080519060200190620000b192919062000346565b5080600560006101000a81548160ff021916908360ff160217905550505050620000ed336a0422ca8b0a00a425000000620000f360201b60201c565b620003f5565b600073ffffffffffffffffffffffffffffffffffffffff168273ffffffffffffffffffffffffffffffffffffffff16141562000197576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601f8152602001807f45524332303a206d696e7420746f20746865207a65726f20616464726573730081525060200191505060405180910390fd5b620001b381600254620002bd60201b62000e5d1790919060201c565b60028190555062000211816000808573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054620002bd60201b62000e5d1790919060201c565b6000808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055508173ffffffffffffffffffffffffffffffffffffffff16600073ffffffffffffffffffffffffffffffffffffffff167fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef836040518082815260200191505060405180910390a35050565b6000808284019050838110156200033c576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601b8152602001807f536166654d6174683a206164646974696f6e206f766572666c6f77000000000081525060200191505060405180910390fd5b8091505092915050565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f106200038957805160ff1916838001178555620003ba565b82800160010185558215620003ba579182015b82811115620003b95782518255916020019190600101906200039c565b5b509050620003c99190620003cd565b5090565b620003f291905b80821115620003ee576000816000905550600101620003d4565b5090565b90565b610f9f80620004056000396000f3fe",
+      "bodyBytecodeHash": "865b4e57258a8bbcb397525e0423beda60e24eb78caaaf2e6097bcf6ef8084fb",
+      "localBytecodeHash": "a343d35b164884fc2ceddeb73ad51bfd8c10d5d96d21f516c379447f31bcae8a",
+      "deployedBytecodeHash": "a343d35b164884fc2ceddeb73ad51bfd8c10d5d96d21f516c379447f31bcae8a",
+      "types": {
+        "t_uint256": {
+          "id": "t_uint256",
+          "kind": "elementary",
+          "label": "uint256"
+        },
+        "t_mapping<t_uint256>": {
+          "id": "t_mapping<t_uint256>",
+          "valueType": "t_uint256",
+          "label": "mapping(key => uint256)",
+          "kind": "mapping"
+        },
+        "t_string": {
+          "id": "t_string",
+          "kind": "elementary",
+          "label": "string"
+        },
+        "t_uint8": {
+          "id": "t_uint8",
+          "kind": "elementary",
+          "label": "uint8"
+        }
+      },
+      "storage": [
+        {
+          "contract": "ERC20",
+          "path": "@openzeppelin/contracts/token/ERC20/ERC20.sol",
+          "label": "_balances",
+          "astId": 226,
+          "type": "t_mapping<t_uint256>",
+          "src": "1296:46:3"
+        },
+        {
+          "contract": "ERC20",
+          "path": "@openzeppelin/contracts/token/ERC20/ERC20.sol",
+          "label": "_allowances",
+          "astId": 232,
+          "type": "t_mapping<t_uint256>",
+          "src": "1349:69:3"
+        },
+        {
+          "contract": "ERC20",
+          "path": "@openzeppelin/contracts/token/ERC20/ERC20.sol",
+          "label": "_totalSupply",
+          "astId": 234,
+          "type": "t_uint256",
+          "src": "1425:28:3"
+        },
+        {
+          "contract": "ERC20Detailed",
+          "path": "@openzeppelin/contracts/token/ERC20/ERC20Detailed.sol",
+          "label": "_name",
+          "astId": 617,
+          "type": "t_string",
+          "src": "148:20:4"
+        },
+        {
+          "contract": "ERC20Detailed",
+          "path": "@openzeppelin/contracts/token/ERC20/ERC20Detailed.sol",
+          "label": "_symbol",
+          "astId": 619,
+          "type": "t_string",
+          "src": "174:22:4"
+        },
+        {
+          "contract": "ERC20Detailed",
+          "path": "@openzeppelin/contracts/token/ERC20/ERC20Detailed.sol",
+          "label": "_decimals",
+          "astId": 621,
+          "type": "t_uint8",
+          "src": "202:23:4"
+        }
+      ],
+      "warnings": {
+        "hasConstructor": true,
+        "hasSelfDestruct": false,
+        "hasDelegateCall": false,
+        "hasInitialValuesInDeclarations": false,
+        "uninitializedBaseContracts": []
+      }
+    }
+  },
+  "solidityLibs": {},
+  "proxies": {},
+  "manifestVersion": "2.2",
+  "version": "1.0.0",
+  "proxyAdmin": {
+    "address": "0xDfc648F38528B7568634a7a082Aaa1833638e292"
+  }
+}
